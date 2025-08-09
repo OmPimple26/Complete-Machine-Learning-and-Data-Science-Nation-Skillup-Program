@@ -1,0 +1,29 @@
+# 1. Introduction to the Program
+## Overview of the Complete Machine Learning & Data Science Nation SkillUp Program by GeeksforGeeks.
+
+## Understanding the program structure, goals, and expected learning outcomes.
+
+## Importance of Machine Learning & Data Science in today’s tech industry.
+
+## Key skills to be gained: Python, Data Analysis, Machine Learning, Deep Learning, and Deployment.
+
+# 2. Python Setup
+## Installed the latest version of Python (3.x).
+
+## Set up Anaconda / Miniconda (or Python directly) for package & environment management.
+
+## Installed essential libraries:
+
+```
+pip install numpy pandas matplotlib seaborn scikit-learn jupyter
+```
+
+## Configured Jupyter Notebook for an interactive coding environment.
+## Verified installation by running a test script in Python.
+
+# 3. Key Takeaways
+## Successfully set up a working Python environment.
+
+## Understood how to create and activate virtual environments for different projects.
+
+## Ready to start learning Python basics and moving towards Data Science workflows.
