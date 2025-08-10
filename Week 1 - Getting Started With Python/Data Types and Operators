@@ -1,0 +1,60 @@
+1. Data Types in Python
+## Numeric Types – int, float, complex for handling numbers.
+
+## Sequence Types – list, tuple, range for storing ordered collections.
+
+## Text Type – str for string data.
+
+## Mapping Type – dict for key-value pairs.
+
+## Set Types – set, frozenset for unique collections.
+
+## Boolean Type – bool for logical values (True, False).
+
+## Binary Types – bytes, bytearray, memoryview for binary data.
+
+# Example:
+
+Python Code-
+
+a = 10          # int
+b = 3.14        # float
+name = "Om"     # str
+is_active = True # bool
+
+2. Operators in Python
+## Arithmetic Operators
++, -, *, /, //, %, ** – perform mathematical calculations.
+
+# Example:
+
+Python Code-
+
+x, y = 10, 3
+print(x + y)  # 13
+print(x // y) # 3
+
+## Comparison Operators
+==, !=, >, <, >=, <= – compare values.
+
+## Logical Operators
+and, or, not – combine conditional statements.
+
+## Assignment Operators
+=, +=, -=, *=, /=, //=, %= – assign and update values.
+
+## Bitwise Operators
+&, |, ^, ~, <<, >> – operate on binary representations.
+
+## Membership Operators
+in, not in – check membership in sequences.
+
+## Identity Operators
+is, is not – compare object identity.
+
+3. Key Takeaways
+## Learned core Python data types and when to use them.
+
+## Explored different operators for mathematical, logical, and comparison operations.
+
+## Gained practical experience through examples in Jupyter Notebook.
