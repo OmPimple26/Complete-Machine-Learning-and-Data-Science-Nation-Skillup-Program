@@ -1,0 +1,73 @@
+1. Loops in Python
+## for loop – Iterates over a sequence (list, tuple, string, range).
+
+## while loop – Runs until a condition becomes False.
+
+# Loop control statements:
+
+## break – exits the loop.
+
+## continue – skips current iteration.
+
+## pass – placeholder statement.
+
+# Example:
+
+## Python Code:
+
+for i in range(5):
+    print(i)
+
+count = 0
+while count < 5:
+    print(count)
+    count += 1
+
+2. Functions in Python
+## Definition: A block of reusable code defined with def.
+
+## Arguments: positional, keyword, default, and variable-length (*args, **kwargs).
+
+## Return values using return.
+
+# Example:
+
+## Python Code:
+
+def greet(name="User"):
+    return f"Hello, {name}!"
+
+print(greet("Om"))
+
+3. Basic Object-Oriented Programming (OOP) in Python
+## Class – Blueprint for creating objects.
+
+## Object – Instance of a class.
+
+## Methods – Functions defined inside a class.
+
+## __init__ constructor – Initializes object attributes.
+
+## self – Refers to the current instance.
+
+# Example:
+
+## Python Code:
+
+class Student:
+    def __init__(self, name, roll):
+        self.name = name
+        self.roll = roll
+
+    def display_info(self):
+        print(f"Name: {self.name}, Roll: {self.roll}")
+
+s1 = Student("Om", 101)
+s1.display_info()
+
+4. Key Takeaways
+## Learned to use loops for iteration and control flow.
+
+## Created functions for reusable code.
+
+## Understood OOP basics: classes, objects, and methods, which are essential for larger Python projects.
