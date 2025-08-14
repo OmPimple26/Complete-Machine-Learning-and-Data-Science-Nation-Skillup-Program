@@ -1,0 +1,57 @@
+1. Strings in Python
+
+## Definition: Sequence of characters enclosed in single ('), double (") or triple quotes (''' or """).
+
+## Indexing & Slicing: Access characters using indexes (str[0]), extract substrings (str[start:end:step]).
+
+# Common String Methods:
+
+.lower(), .upper() – change case
+
+.strip() – remove spaces
+
+.replace(old, new) – replace text
+
+.split(delimiter) – split into list
+
+.join(list) – join list into string
+
+# Example:
+
+text = "  Hello World  "
+print(text.strip().upper())  # HELLO WORLD
+print(text[2:7])             # llo W
+
+2. Lists in Python
+
+## Definition: Ordered, mutable collection defined using square brackets [].
+
+## Can store mixed data types.
+
+## Indexing & Slicing works like strings.
+
+# List Methods:
+
+.append() – add item
+
+.insert(index, item) – insert at position
+
+.remove(item) – remove first occurrence
+
+.pop(index) – remove and return element
+
+.sort() / .reverse() – sort or reverse list
+
+# Example:
+
+fruits = ["apple", "banana", "cherry"]
+fruits.append("mango")
+print(fruits)  # ['apple', 'banana', 'cherry', 'mango']
+
+3. Key Takeaways
+
+## Learned how to create, access, and manipulate strings.
+
+## Explored list operations for storing and modifying collections of data.
+
+## Practiced indexing, slicing, and built-in methods to process text and data efficiently.
