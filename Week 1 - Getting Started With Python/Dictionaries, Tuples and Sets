@@ -1,0 +1,70 @@
+1. Dictionaries in Python
+
+## Definition: Unordered, mutable collection of key-value pairs defined using {}.
+
+## Accessing values with keys: dict[key] or .get(key).
+
+## Updating: Add or modify using dict[key] = value.
+
+# Common Methods:
+
+.keys() – all keys
+
+.values() – all values
+
+.items() – key-value pairs
+
+.pop(key) – remove an item
+
+.update({...}) – update dictionary
+
+# Example:
+
+student = {"name": "Om", "age": 21, "course": "DS"}
+student["age"] = 22
+print(student.get("name"))  # Om
+
+2. Tuples in Python
+
+## Definition: Ordered, immutable collection defined using ().
+
+## Supports indexing, slicing, and iteration like lists.
+
+## Useful for storing fixed data.
+
+## Can contain mixed data types and nested tuples.
+
+# Example:
+
+coords = (10, 20, 30)
+print(coords[1])  # 20
+
+3. Sets in Python
+
+## Definition: Unordered, mutable collection of unique elements defined using {}.
+
+## Removes duplicates automatically.
+
+# Set Operations:
+
+union(), | – combine sets
+
+intersection(), & – common elements
+
+difference(), - – unique elements
+
+add(), remove() – modify set
+
+# Example:
+
+a = {1, 2, 3}
+b = {3, 4, 5}
+print(a | b)  # {1, 2, 3, 4, 5}
+
+4. Key Takeaways
+
+## Dictionaries: Work with key-value data for fast lookups.
+
+## Tuples: Immutable sequences, useful for fixed collections.
+
+## Sets: Collections of unique items, powerful for mathematical operations.
